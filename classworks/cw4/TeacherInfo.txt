@@ -1,0 +1,5 @@
+Teacher info is the following:
+age is: 30
+name is: Anun
+salary is: 250000
+company is: Google
