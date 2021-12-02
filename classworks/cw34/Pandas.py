@@ -11,6 +11,19 @@ print()
 print("Dataframe loc[0]: \n", data_frame.loc[0])
 print()
 
+print("Dataframe loc[[0, 1]]: \n", data_frame.loc[[0, 1]])
+print()
+
+myvar1 = pd.DataFrame(my_data, index=['DAY1', 'DAY2', 'DAY3'])
+print("DataFrame index: \n", myvar1)
+print()
+
+print("DataFrame loc['DAY2']: \n", myvar1.loc['DAY2'])
+print()
+
+print("DataFrame loc[['DAY2']]: \n", myvar1.loc[['DAY2']])
+print()
+
 my_data1 = [5, 9, 1]
 print("Series my_data1: \n", pd.Series(my_data1))
 print()
