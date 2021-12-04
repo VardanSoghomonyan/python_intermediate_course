@@ -72,3 +72,6 @@ dictionary_data = {
 
 print('pd.DataFrame(dictionary_data) is:\n', pd.DataFrame(dictionary_data))
 print()
+
+# calculates and returns correlation
+print("readCSV.corr()\n", readCSV.corr())
