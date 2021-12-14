@@ -104,3 +104,19 @@ plt.show()
 histo = np.random.normal(170, 10, 250)
 plt.hist(histo)
 plt.show()
+
+y = np.array([35, 25, 25, 15])
+my_labels = ['Apples', 'Bananas', 'Oranges', 'Peaches']
+my_explode = [0.2, 0, 0, 0]
+my_colors = ['yellow', 'green', 'red', 'black']
+# labels - gives labels to the pieces, startangle - defines start angle of pie chart, explode - explodes the given piece
+# shadow - gives shadow to the chart
+plt.pie(y, labels=my_labels, startangle=90, explode=my_explode, shadow=True, colors=my_colors)
+# legend shows the sections legend on the chart
+plt.legend(title='Chart legend', loc='upper left')
+plt.show()
+
+x = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15]])
+y = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15]])
+plt.scatter(x, y)
+plt.show()
